@@ -1,0 +1,17 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "kollekt" verbose="1">
+    <test name = "staging UI test">
+
+        <classes>
+            <class name ="test.java.SetupFileTests">
+                <methods>
+                    <exclude name="signUp" />
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+
+</suite>
