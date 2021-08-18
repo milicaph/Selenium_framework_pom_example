@@ -17,27 +17,6 @@ public class SeleniumUtilities {
     public SeleniumUtilities(ChromeDriver driver) {
         this.driver = driver;
     }
-/*
-    public WebElement waitForElementToBeVisible(String elementLocator, String typeOfLocator) {
-        WebElement webElement = null;
-        int timeout = 20;
-        WebDriverWait wait = new WebDriverWait(driver, timeout);
-        try {
-            System.out.println(elementLocator);
-            if(typeOfLocator == "css")
-                webElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(elementLocator)));
-            else if(typeOfLocator == "xpath")
-                webElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(elementLocator)));
-        } catch (WebDriverException ignored) {
-        }
-
-        if (webElement == null) {
-            System.out.println("WebElement not found within " + timeout + " seconds. Failing test!" + " of element: " + elementLocator + "\nCurrent page: " + driver.getCurrentUrl());
-        }
-        return webElement;
-    }
-
-*/
 
     public void clickAndSendKeys(WebElement element, String keysToSend){
         element.click();
