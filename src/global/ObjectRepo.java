@@ -26,6 +26,6 @@ public class ObjectRepo {
     public static final String ownerRequest2 = "Owner request 2";
 
     // Usernames
-    public static final String so1Username = "so1";
-    public static final String so2Username = "so2";
+    public static final String so1Username = "zo1";
+    public static final String so2Username = "zo2";
 }
