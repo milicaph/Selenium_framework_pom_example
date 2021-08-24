@@ -6,7 +6,7 @@ public class ObjectRepo {
 
     // Login parameters
     public static final String stagingLoginURL = "https://staging.kollekt.dk/#/login/";
-    public static final String universalPassword = "incorrect"; // password is incorrect due to security reasons
+    public static final String universalPassword = "ran_pass"; 
     public static final String adminEmail = "milicapo0998@gmail.com";
 
     // Files page url
